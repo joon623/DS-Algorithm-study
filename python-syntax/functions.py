@@ -46,3 +46,8 @@ print(aa)
 print( type(range(5)))
 # map 함수 
 # map(함수, 리스트)
+
+bb = (lambda x: x **2 )(2)
+print(bb)
+result_map = map(lambda x: x**2, range(5))
+print("result_map", result_map)
